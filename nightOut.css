@@ -1,0 +1,53 @@
+/* ////////////////////////////////////////////////////body----1/////////////////////////////////////////////////// */
+
+.body1 {
+    background-image: url('/nightOut/images&logo/Black\ And\ Orange\ Illustrative\ Bar\ &\ Restaurant\ Logo.png');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 50% ;
+    height: 100vh;
+}
+
+/* buttons in the main page */
+.nightOutBtn {
+    margin: 20% 10%;
+}
+/* ////////////////////////////////////////////////body----2/////////////////////////////////////////////////////// */
+
+.body2 {
+    background-image: url('/nightOut/images&logo/avengers_endgame_4k_hd_2-3840x2160.jpg');
+     background-repeat: no-repeat;
+     background-position: center; 
+     background-size: 100%; 
+
+}
+
+.textContainer {
+    margin: 10rem;
+    font-size: 35px;
+    font-family:fantasy;
+    color: rgb(52, 0, 0);
+    text-shadow: 0px 1px 2px rgb(220, 7, 7), 0 0 1em rgb(214, 219, 203), 0 0 0.2em rgb(0, 0, 220);
+
+
+}
+
+
+
+
+
+/* ////////////////////////////////////////////////////body----3/////////////////////////////////////////////////// */
+.body3 {
+    background-image: url('/nightOut/images&logo/star-wars.jpg');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 100%;
+    color: rgb(243, 17, 17);
+}
+
+.nightOutBtn:hover {
+    transform: rotate(1turn);
+    transition: 2s;
+}
+
+
