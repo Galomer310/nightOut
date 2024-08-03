@@ -12,6 +12,57 @@
 .nightOutBtn {
     margin: 20% 10%;
 }
+
+.nightOutBtn:hover {
+    transform: scale(1.5);    
+    transition: 2s;
+}
+
+.nightOutBtn:hover {
+    background-image: url('images&logo/movie.png');
+}
+
+
+.containerHome {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-rows: repeat(3, 1fr);
+    justify-content: center;
+    align-items: center;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 /* ////////////////////////////////////////////////body----2/////////////////////////////////////////////////////// */
 
 .mainContainer {
@@ -199,9 +250,8 @@
     color: rgb(243, 17, 17);
 }
 
-.nightOutBtn:hover {
-    transform: rotate(1turn);
-    transition: 2s;
-}
+
+
+
 
 
