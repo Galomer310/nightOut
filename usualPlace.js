@@ -46,12 +46,12 @@ document.getElementById("tip").addEventListener("click", function() {
     document.getElementById("tip").innerHTML = tipToAdd;
 
     var needToPay = TotalCount + tipToAdd;
-    document.getElementById("Payment").innerHTML = "Total need to pay = " + needToPay; // Corrected ID selection
+    document.getElementById("Payment").innerHTML = needToPay; // Corrected ID selection
 });
 
 function updateTotal() {
     TotalCount = beerPayment + caesarPayment + foodPayment;
-    document.getElementById("Payment").innerHTML = "Total need to pay = " + TotalCount;
+    document.getElementById("Payment").innerHTML = TotalCount;
 }
 
 
