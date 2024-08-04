@@ -18,10 +18,7 @@
 }
 
 .txtBtnHome {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    font-size: 4rem;
+    font-size: 3rem;
 }
 
 /* ////////////////////////////////////////////////body----2/////////////////////////////////////////////////////// */
@@ -42,7 +39,7 @@
 }
 
 .box {
-    height: 15rem;
+    height: fit-content;
     width: auto;
     display: flex;
     justify-content: center;
@@ -358,8 +355,6 @@
     animation-iteration-count: 1;
 }
 
-
-
 #Payment {
     font-size: 10rem;
     color: rgb(146, 215, 42);
@@ -367,7 +362,7 @@
 
 #new_Payment {
     font-size: 10rem;
-    color: rgb(28, 208, 214);
+    color: rgb(48, 235, 241);
 }
 
 
