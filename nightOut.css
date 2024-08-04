@@ -2,13 +2,13 @@
 
 .body1 {
     background-image: url('/nightOut/images&logo/Black\ And\ Orange\ Illustrative\ Bar\ &\ Restaurant\ Logo.png');
-    background-repeat: no-repeat;
+    /* background-repeat: no-repeat; */
     background-position: center;
-    background-size: 40% ;
-    height: 100vh;
+    /* background-size: 100%; */
+    height: fit-content;
 }
 
-
+/* main page  */
 .containerHome {
     display: grid;
     grid-template-columns: repeat(4, 1fr);
@@ -18,7 +18,7 @@
 }
 
 .txtBtnHome {
-    font-size: 3rem;
+    font-size: 4rem;
 }
 
 /* ////////////////////////////////////////////////body----2/////////////////////////////////////////////////////// */
@@ -46,7 +46,7 @@
     align-items: center;
 }
 
-
+/* buttons size and swing */
 #beer {
     height: 10rem;
 }
