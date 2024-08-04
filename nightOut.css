@@ -74,6 +74,14 @@
 
 }
 
+.mainContainerNewPub {
+    background-image: url('images&logo/star-wars.jpg');
+    background-size:cover ;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-template-rows: repeat(4, 1fr);    
+}
+
 .box {
     height: 15rem;
     width: auto;
@@ -93,19 +101,15 @@
 
 
 #beer {
-    color: rgb(152, 27, 27);
-    font-family: cursive;
-    font-size: 5rem;
+    height: 10rem;
 }
 #beer:hover {
-    transform:scale(1.5 ) ;
+    transform:scale(1.5) ;
     transition: 1s ease;
 }
 
 #shot {
-    color: orange;
-    font-family: cursive;
-    font-size: 5rem;
+    height: 10rem;
 }
 
 
@@ -187,9 +191,7 @@
 }
     
 #food {
-    color: green;
-    font-family: cursive;
-    font-size: 5rem;
+    height: 10rem;
 }
 #food:hover {
     transform: rotate(360deg);
@@ -199,18 +201,20 @@
 }
 
 #tip {
-    color: purple;
-    font-size: 5rem;
-    font-family: cursive;
+    height: 10rem;
 }
 #tip:hover {
-    color: pink;
 }
 
 
 #Payment {
-    font-size: 8rem;
+    font-size: 10rem;
     color: rgb(146, 215, 42);
+}
+
+#new_Payment {
+    font-size: 10rem;
+    color: rgb(28, 208, 214);
 }
 
 
@@ -242,13 +246,7 @@
 
 
 /* ////////////////////////////////////////////////////body----3/////////////////////////////////////////////////// */
-.body3 {
-    background-image: url('/nightOut/images&logo/star-wars.jpg');
-    background-repeat: no-repeat;
-    background-position: center;
-    background-size: 100%;
-    color: rgb(243, 17, 17);
-}
+
 
 
 

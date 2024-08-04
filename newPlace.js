@@ -32,7 +32,7 @@ document.getElementById("beer").addEventListener("click", function() {
 // });
 
 document.getElementById("shot").addEventListener("click", function() {
-    var chaser = prompt("what is the cost of one chaser?");
+    var chaser = prompt("what is the cost of one shot?");
     chaser = Number(chaser);
     var chaserCount = prompt("How many caesars did you have?");
     chaserCount = Number(chaserCount);
@@ -80,7 +80,7 @@ document.getElementById("tip").addEventListener("click", function() {
     var tipToAdd = (TotalCount * tipByPercentage) / 100; 
     document.getElementById("tip").innerHTML = tipToAdd;
     var needToPay = TotalCount + tipToAdd;
-    document.getElementById("new_Payment").innerHTML = "Total need to pay = " + needToPay; // Corrected ID selection
+    document.getElementById("new_Payment").innerHTML = needToPay; // Corrected ID selection
 });
 
 ///////////////////////////////////////////////////////////////////////////////////////// the class vertion///////////////////
@@ -96,5 +96,5 @@ document.getElementById("tip").addEventListener("click", function() {
 
 function updateTotal() {
     TotalCount = beerPayment + chaserPayment + foodPayment;
-    document.getElementById("new_Payment").innerHTML = "Total need to pay = " + TotalCount;
+    document.getElementById("new_Payment").innerHTML = TotalCount;
 }
