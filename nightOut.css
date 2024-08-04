@@ -4,22 +4,8 @@
     background-image: url('/nightOut/images&logo/Black\ And\ Orange\ Illustrative\ Bar\ &\ Restaurant\ Logo.png');
     background-repeat: no-repeat;
     background-position: center;
-    background-size: 50% ;
+    background-size: 40% ;
     height: 100vh;
-}
-
-/* buttons in the main page */
-.nightOutBtn {
-    margin: 20% 10%;
-}
-
-.nightOutBtn:hover {
-    transform: scale(1.5);    
-    transition: 2s;
-}
-
-.nightOutBtn:hover {
-    background-image: url('images&logo/movie.png');
 }
 
 
@@ -31,43 +17,17 @@
     align-items: center;
 }
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+.txtBtnHome {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 4rem;
+}
 
 /* ////////////////////////////////////////////////body----2/////////////////////////////////////////////////////// */
 
 .mainContainer {
-    background-image: url('images&logo/avengers_endgame_4k_hd_2-3840x2160.jpg');
-    background-size:cover ;
+    background-color: rgb(80, 73, 73);
     display: grid;
     grid-template-columns: 1fr 1fr 1fr 1fr;
     grid-template-rows: repeat(4, 1fr);
@@ -75,8 +35,7 @@
 }
 
 .mainContainerNewPub {
-    background-image: url('images&logo/star-wars.jpg');
-    background-size:cover ;
+    background-color: rgba(165, 42, 42, 0.589);
     display: grid;
     grid-template-columns: 1fr 1fr 1fr 1fr;
     grid-template-rows: repeat(4, 1fr);    
@@ -91,30 +50,86 @@
 }
 
 
-.box6 {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
-
-
-
-
 #beer {
     height: 10rem;
 }
-#beer:hover {
-    transform:scale(1.5) ;
-    transition: 1s ease;
+ @-webkit-keyframes swing
+{
+            15%
+            {
+                -webkit-transform: translateX(5px);
+                transform: translateX(5px);
+            }
+            30%
+            {
+                -webkit-transform: translateX(-5px);
+                transform: translateX(-5px);
+            } 
+            50%
+            {
+                -webkit-transform: translateX(3px);
+                transform: translateX(3px);
+            }
+            65%
+            {
+                -webkit-transform: translateX(-3px);
+                transform: translateX(-3px);
+            }
+            80%
+            {
+                -webkit-transform: translateX(2px);
+                transform: translateX(2px);
+            }
+            100%
+            {
+                -webkit-transform: translateX(0);
+                transform: translateX(0);
+            }
+}
+@keyframes swing
+{
+            15%
+            {
+                -webkit-transform: translateX(5px);
+                transform: translateX(5px);
+            }
+            30%
+            {
+                -webkit-transform: translateX(-5px);
+                transform: translateX(-5px);
+            }
+            50%
+            {
+                -webkit-transform: translateX(3px);
+                transform: translateX(3px);
+            }
+            65%
+            {
+                -webkit-transform: translateX(-3px);
+                transform: translateX(-3px);
+            }
+            80%
+            {
+                -webkit-transform: translateX(2px);
+                transform: translateX(2px);
+            }
+            100%
+            {
+                -webkit-transform: translateX(0);
+                transform: translateX(0);
+            }
+}       
+#beer:hover
+{
+    -webkit-animation: swing 1s ease;
+    animation: swing 1s ease;
+    -webkit-animation-iteration-count: 1;
+    animation-iteration-count: 1;
 }
 
 #shot {
     height: 10rem;
-}
-
-
-    
-    
+}   
  @-webkit-keyframes swing
 {
             15%
@@ -181,7 +196,6 @@
                 transform: translateX(0);
             }
 }
-        
 #shot:hover
 {
     -webkit-animation: swing 1s ease;
@@ -192,19 +206,158 @@
     
 #food {
     height: 10rem;
+} 
+ @-webkit-keyframes swing
+{
+            15%
+            {
+                -webkit-transform: translateX(5px);
+                transform: translateX(5px);
+            }
+            30%
+            {
+                -webkit-transform: translateX(-5px);
+                transform: translateX(-5px);
+            } 
+            50%
+            {
+                -webkit-transform: translateX(3px);
+                transform: translateX(3px);
+            }
+            65%
+            {
+                -webkit-transform: translateX(-3px);
+                transform: translateX(-3px);
+            }
+            80%
+            {
+                -webkit-transform: translateX(2px);
+                transform: translateX(2px);
+            }
+            100%
+            {
+                -webkit-transform: translateX(0);
+                transform: translateX(0);
+            }
 }
-#food:hover {
-    transform: rotate(360deg);
-    transition: 1s ease-in-out;
-    color: blue;
-    background-image: url('images&logo/');
+@keyframes swing
+{
+            15%
+            {
+                -webkit-transform: translateX(5px);
+                transform: translateX(5px);
+            }
+            30%
+            {
+                -webkit-transform: translateX(-5px);
+                transform: translateX(-5px);
+            }
+            50%
+            {
+                -webkit-transform: translateX(3px);
+                transform: translateX(3px);
+            }
+            65%
+            {
+                -webkit-transform: translateX(-3px);
+                transform: translateX(-3px);
+            }
+            80%
+            {
+                -webkit-transform: translateX(2px);
+                transform: translateX(2px);
+            }
+            100%
+            {
+                -webkit-transform: translateX(0);
+                transform: translateX(0);
+            }
+}
+#food:hover
+{
+    -webkit-animation: swing 1s ease;
+    animation: swing 1s ease;
+    -webkit-animation-iteration-count: 1;
+    animation-iteration-count: 1;
 }
 
 #tip {
     height: 10rem;
 }
-#tip:hover {
+ @-webkit-keyframes swing
+{
+            15%
+            {
+                -webkit-transform: translateX(5px);
+                transform: translateX(5px);
+            }
+            30%
+            {
+                -webkit-transform: translateX(-5px);
+                transform: translateX(-5px);
+            } 
+            50%
+            {
+                -webkit-transform: translateX(3px);
+                transform: translateX(3px);
+            }
+            65%
+            {
+                -webkit-transform: translateX(-3px);
+                transform: translateX(-3px);
+            }
+            80%
+            {
+                -webkit-transform: translateX(2px);
+                transform: translateX(2px);
+            }
+            100%
+            {
+                -webkit-transform: translateX(0);
+                transform: translateX(0);
+            }
 }
+@keyframes swing
+{
+            15%
+            {
+                -webkit-transform: translateX(5px);
+                transform: translateX(5px);
+            }
+            30%
+            {
+                -webkit-transform: translateX(-5px);
+                transform: translateX(-5px);
+            }
+            50%
+            {
+                -webkit-transform: translateX(3px);
+                transform: translateX(3px);
+            }
+            65%
+            {
+                -webkit-transform: translateX(-3px);
+                transform: translateX(-3px);
+            }
+            80%
+            {
+                -webkit-transform: translateX(2px);
+                transform: translateX(2px);
+            }
+            100%
+            {
+                -webkit-transform: translateX(0);
+                transform: translateX(0);
+            }
+}       
+#tip:hover
+{
+    -webkit-animation: swing 1s ease;
+    animation: swing 1s ease;
+    -webkit-animation-iteration-count: 1;
+    animation-iteration-count: 1;
+}
+
 
 
 #Payment {
