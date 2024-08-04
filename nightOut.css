@@ -1,13 +1,10 @@
 /* ////////////////////////////////////////////////////body----1/////////////////////////////////////////////////// */
-
 .body1 {
     background-image: url('/nightOut/images&logo/Black\ And\ Orange\ Illustrative\ Bar\ &\ Restaurant\ Logo.png');
-    /* background-repeat: no-repeat; */
     background-position: center;
-    /* background-size: 100%; */
-    height: fit-content;
+    background-size: cover;
+    
 }
-
 /* main page  */
 .containerHome {
     display: grid;
