@@ -3,7 +3,7 @@
     background-image: url('/nightOut/images&logo/Black\ And\ Orange\ Illustrative\ Bar\ &\ Restaurant\ Logo.png');
     background-position: center;
     background-size: cover;
-    
+    height: fit-content;
 }
 /* main page  */
 .containerHome {
