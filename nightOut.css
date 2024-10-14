@@ -1,17 +1,12 @@
 /* ////////////////////////////////////////////////////body----1/////////////////////////////////////////////////// */
-.body1 {
-    background-image: url('/nightOut/images&logo/Black\ And\ Orange\ Illustrative\ Bar\ &\ Restaurant\ Logo.png');
-    background-position: center;
-    background-size: cover;
-    height: fit-content;
-}
-/* main page  */
-.containerHome {
+.mainContainer {
+    background-color: rgb(80, 73, 73);
     display: grid;
-    grid-template-columns: repeat(4, 1fr);
-    grid-template-rows: repeat(3, 1fr);
-    justify-content: center;
-    align-items: center;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-template-rows: repeat(4, 1fr);
+    background: linear-gradient(300deg, #d82c2c, #924e4e, #977c7c);
+    background-size: 180% 180%;
+    animation: gradient-animation 20s ease infinite;
 }
 
 .txtBtnHome {
@@ -19,20 +14,26 @@
 }
 
 /* ////////////////////////////////////////////////body----2/////////////////////////////////////////////////////// */
-
-.mainContainer {
+.mainContainer2 {
     background-color: rgb(80, 73, 73);
     display: grid;
     grid-template-columns: 1fr 1fr 1fr 1fr;
     grid-template-rows: repeat(4, 1fr);
-
+    background: linear-gradient(300deg, #3502ff, #924e4e, #6d4ec3);
+    background-size: 180% 180%;
+    animation: gradient-animation 20s ease infinite;
 }
 
+/* ////////////////////////////////////////////////body----3/////////////////////////////////////////////////////// */
+
 .mainContainerNewPub {
-    background-color: rgba(165, 42, 42, 0.589);
+    background-color: rgb(80, 73, 73);
     display: grid;
     grid-template-columns: 1fr 1fr 1fr 1fr;
-    grid-template-rows: repeat(4, 1fr);    
+    grid-template-rows: repeat(4, 1fr);
+    background: linear-gradient(300deg, #02ff0f, #439eb2, #50b818);
+    background-size: 180% 180%;
+    animation: gradient-animation 20s ease infinite;
 }
 
 .box {
