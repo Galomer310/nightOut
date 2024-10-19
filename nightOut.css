@@ -1,6 +1,6 @@
 /* ////////////////////////////////////////////////////body----1/////////////////////////////////////////////////// */
 .mainContainer {
-    background-image: url(./images&logo/Black\ And\ Orange\ Illustrative\ Bar\ &\ Restaurant\ Logo.png);
+    background-image: url(./images&logo/Seamless\ pattern\ wallpaper\ with\ beer\ mug\,\ barley\ for\ design.jpeg);
     height: 100vh;
     display: grid;
     grid-template-columns: 1fr 1fr 1fr 1fr;
@@ -18,7 +18,7 @@
 
 /* ////////////////////////////////////////////////body----2/////////////////////////////////////////////////////// */
 .mainContainer2 {
-    background-image: url(./images&logo/Seamless\ pattern\ wallpaper\ with\ beer\ mug\,\ barley\ for\ design.jpeg);
+    background-image: url(./images&logo/Black\ And\ Orange\ Illustrative\ Bar\ &\ Restaurant\ Logo.png);
     height: 100vh;
     display: grid;
     grid-template-columns: 1fr 1fr 1fr 1fr;
