@@ -5,7 +5,7 @@
     display: grid;
     grid-template-columns: 1fr 1fr 1fr 1fr;
     grid-template-rows: repeat(4, 1fr);
-    animation: gradient-animation 20s ease infinite;
+    /* animation: gradient-animation 20s ease infinite; */
 }
 
 .txtBtnHome {
@@ -356,12 +356,12 @@
 
 #Payment {
     font-size: 10rem;
-    color: rgb(146, 215, 42);
+    color: rgb(233, 67, 12);
 }
 
 #new_Payment {
     font-size: 10rem;
-    color: rgb(48, 235, 241);
+    color: rgb(0, 242, 250);
 }
 
 
