@@ -1,12 +1,10 @@
 /* ////////////////////////////////////////////////////body----1/////////////////////////////////////////////////// */
 .mainContainer {
     background-image: url(./images&logo/Black\ And\ Orange\ Illustrative\ Bar\ &\ Restaurant\ Logo.png);
-    /* background-color: rgb(80, 73, 73); */
+    height: 100vh;
     display: grid;
     grid-template-columns: 1fr 1fr 1fr 1fr;
     grid-template-rows: repeat(4, 1fr);
-    /* background: linear-gradient(300deg, #d82c2c, #924e4e, #977c7c); */
-    /* background-size: 180% 180%; */
     animation: gradient-animation 20s ease infinite;
 }
 
@@ -22,12 +20,9 @@
 .mainContainer2 {
     background-image: url(./images&logo/Seamless\ pattern\ wallpaper\ with\ beer\ mug\,\ barley\ for\ design.jpeg);
     height: 100vh;
-    /* background-color: rgb(80, 73, 73); */
     display: grid;
     grid-template-columns: 1fr 1fr 1fr 1fr;
     grid-template-rows: repeat(4, 1fr);
-    /* background: linear-gradient(300deg, #3502ff, #924e4e, #6d4ec3); */
-    /* background-size: 180% 180%; */
     animation: gradient-animation 20s ease infinite;
 }
 
@@ -36,13 +31,9 @@
 .mainContainerNewPub {
     background-image: url(./images&logo/Beer\ Poster.jpeg);
     height: 100vh;
-
-    /* background-color: rgb(80, 73, 73); */
     display: grid;
     grid-template-columns: 1fr 1fr 1fr 1fr;
     grid-template-rows: repeat(4, 1fr);
-    /* background: linear-gradient(300deg, #02ff0f, #439eb2, #50b818); */
-    /* background-size: 180% 180%; */
     animation: gradient-animation 20s ease infinite;
 }
 
